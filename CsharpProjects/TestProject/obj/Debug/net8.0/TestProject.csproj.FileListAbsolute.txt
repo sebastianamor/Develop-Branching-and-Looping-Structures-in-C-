@@ -1,0 +1,15 @@
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.exe
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.deps.json
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.runtimeconfig.json
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.dll
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\bin\Debug\net8.0\TestProject.pdb
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfoInputs.cache
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.AssemblyInfo.cs
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.csproj.CoreCompileInputs.cache
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.sourcelink.json
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.dll
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\refint\TestProject.dll
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.pdb
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\TestProject.genruntimeconfig.cache
+C:\Users\seba\Desktop\c de c\Develop Branching and Looping Structures in C#\CsharpProjects\TestProject\obj\Debug\net8.0\ref\TestProject.dll
