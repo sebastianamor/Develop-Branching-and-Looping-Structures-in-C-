@@ -42,7 +42,7 @@ do
                     }
                 }
             }
-            Console.WriteLine("\nPresione Enter para continuar...");
+            Console.WriteLine("\nPresione Enter para continuar..");
             Console.ReadLine();
             break;
 
