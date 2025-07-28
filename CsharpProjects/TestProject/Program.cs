@@ -46,33 +46,33 @@ do
             Console.ReadLine();
             break;
 
-        case "2":
-            string otraMascota;
-            do
+       case "2":
+    string otraMascota;
+    do
+    {
+        int petCount = 0;
+        int nuevaPosicion = -1;
+
+        // Contar mascotas y encontrar posición vacía
+        for (int i = 0; i < maxPets; i++)
+        {
+            if (!string.IsNullOrEmpty(ourAnimals[i, 0]))
             {
-                int petCount = 0;
-                int nuevaPosicion = -1;
+                petCount++;
+            }
+            else if (nuevaPosicion == -1)
+            {
+                nuevaPosicion = i;
+            }
+        }
 
-                // Contar mascotas y encontrar posición vacía
-                for (int i = 0; i < maxPets; i++)
-                {
-                    if (!string.IsNullOrEmpty(ourAnimals[i, 0]))
-                    {
-                        petCount++;
-                    }
-                    else if (nuevaPosicion == -1)
-                    {
-                        nuevaPosicion = i;
-                    }
-                }
-
-                if (petCount >= maxPets)
-                {
-                    Console.WriteLine("\n¡Hemos alcanzado el límite máximo de mascotas!");
-                    break;
-                }
-
-                Console.WriteLine($"\nActualmente tenemos {petCount} mascotas. Podemos aceptar {(maxPets - petCount)} más.");
+        if (petCount >= maxPets)
+        {
+            Console.WriteLine("\n¡Hemos alcanzado el límite máximo de mascotas!");
+            break;
+        }
+              Console.WriteLine($"\nActualmente tenemos {petCount} mascotas. Podemos aceptar {(maxPets - petCount)} más.");
+        
 
                 // Validar especie (perro o gato)
                 string animalSpecies;
@@ -134,24 +134,33 @@ do
                 ourAnimals[nuevaPosicion, 4] = "Physical description: " + animalPhysicalDescription;
                 ourAnimals[nuevaPosicion, 5] = "Personality: " + animalPersonalityDescription;
 
-                Console.WriteLine("\n¡Mascota agregada exitosamente!");
+               Console.WriteLine("\n¡Mascota agregada exitosamente!");
 
-                if (petCount + 1 < maxPets)
-                {
-                    Console.Write("\n¿Desea agregar otra mascota? (s/n): ");
-                    otraMascota = Console.ReadLine()?.Trim().ToLower();
-                }
-                else
-                {
-                    Console.WriteLine("\n¡Hemos alcanzado el límite máximo de mascotas!");
-                    otraMascota = "n";
-                }
-            } while (otraMascota == "s");
+        if (petCount + 1 < maxPets)
+        {
+            Console.WriteLine("\n¿Qué desea hacer ahora?");
+            Console.WriteLine("1. Agregar otra mascota");
+            Console.WriteLine("2. Volver al menú principal");
+            Console.Write("Seleccione una opción (1-2): ");
             
-            Console.WriteLine("\nPresione Enter para continuar...");
+            string opcionRegistro = Console.ReadLine()?.Trim();
+            
+            if (opcionRegistro == "2")
+            {
+                break; // Sale del bucle y vuelve al menú principal
+            }
+            // Si eligió 1 o cualquier otra cosa, continúa en el bucle
+        }
+        else
+        {
+            Console.WriteLine("\n¡Hemos alcanzado el límite máximo de mascotas!");
             Console.WriteLine("Presione Enter para volver al menú principal...");
             Console.ReadLine();
             break;
+        }
+    } while (true); // Ahora usamos un bucle infinito con break controlado
+    
+    break; // Este break sale del switch case
 
         // Resto de los casos del switch...
     }
