@@ -149,6 +149,7 @@ do
             } while (otraMascota == "s");
             
             Console.WriteLine("\nPresione Enter para continuar...");
+            Console.WriteLine("Presione Enter para volver al menú principal...");
             Console.ReadLine();
             break;
 
