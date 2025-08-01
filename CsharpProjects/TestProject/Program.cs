@@ -79,7 +79,7 @@ do
                 {
                     Console.Write("\n種類を入力してください (犬/猫): "); // Ingrese especie (perro/gato):
                     animalSpecies = Console.ReadLine()?.Trim().ToLower();
-                    validEntry = animalSpecies == "perro" || animalSpecies == "gato"; // Mantengo "perro" y "gato" en español para la lógica de validación
+                    validEntry = animalSpecies == "犬" || animalSpecies == "猫"; // Mantengo "perro" y "gato" en español para la lógica de validación
                     if (!validEntry)
                     {
                         Console.WriteLine("無効な種類です。「犬」または「猫」を入力してください。"); // Especie no válida. Por favor ingrese 'perro' o 'gato'.
